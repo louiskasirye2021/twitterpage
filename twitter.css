@@ -1,0 +1,94 @@
+.button1{
+    color: rgb(7, 153, 211);
+    background-color: white;
+    border-color:  rgb(7, 153, 211);
+    width: 65px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Trebuchet MS;
+    
+}
+.main-div{
+    display: flex;
+    
+    border: rgb(7, 153, 211) 2px;
+}
+.button2{
+    background-color: rgb(7, 153, 211);
+    width: 315px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    border-color:  rgb(7, 153, 211);
+    font-family: Trebuchet MS;
+}
+.button3{
+    background-color:white;
+    width: 315px;
+    height: 35px;
+    border-radius: 20px;
+    color: rgb(7, 153, 211);
+    border-color:  rgb(7, 153, 211);
+    font-family: Trebuchet MS;
+}
+.div2{
+    border:rgb(7, 153, 211) solid 2px ;
+    flex-basis: 45%;
+    background-image: url(brick.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Trebuchet MS;
+}
+.div1{
+flex-basis: 45%;
+text-align: center;
+font-family: Trebuchet MS;
+flex-basis: 50%;
+padding-right: 50px;
+background-color: black;
+background-image: url(wall.jpg);
+background-size: cover;
+}
+.div3{
+    padding: 150px;
+}
+h1{
+    font-family: Trebuchet MS;
+    color: white;
+}
+.password{
+    text-align: right;
+    padding-right: 338px;
+    padding-bottom: 15px;
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-color: white;
+    box-shadow: grey;
+    font-family: Trebuchet MS;
+}
+input[type=password]{
+    width: 200px;
+    height: 30px;
+    border-color: white;
+    box-shadow: grey;
+    font-family: Trebuchet MS;
+}
+h3{
+    color: white;
+}
+a{
+    font-family: Trebuchet MS;
+    font-size: small;
+    padding-right: 5px;
+    color: grey;
+}
+form{
+    background-color: black;
+}
+p{
+    font-size: 20px;
+    display: inline;
+    cursor: pointer;
+}
